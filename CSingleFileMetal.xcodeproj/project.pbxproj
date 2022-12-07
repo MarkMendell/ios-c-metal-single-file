@@ -21,7 +21,7 @@
 		4D49C0D9293FC281006D6370 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		4D49C0DB293FC289006D6370 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		4D49C0DD293FD29E006D6370 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4D571F4B2937F87600E12078 /* MobileCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D571F4B2937F87600E12078 /* CSingleFileMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSingleFileMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D571F622937F87700E12078 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +65,7 @@
 		4D571F4C2937F87600E12078 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D571F4B2937F87600E12078 /* MobileCode.app */,
+				4D571F4B2937F87600E12078 /* CSingleFileMetal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D571F4A2937F87600E12078 /* MobileCode */ = {
+		4D571F4A2937F87600E12078 /* CSingleFileMetal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D571F662937F87700E12078 /* Build configuration list for PBXNativeTarget "MobileCode" */;
+			buildConfigurationList = 4D571F662937F87700E12078 /* Build configuration list for PBXNativeTarget "CSingleFileMetal" */;
 			buildPhases = (
 				4D571F472937F87600E12078 /* Sources */,
 				4D571F482937F87600E12078 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = MobileCode;
+			name = CSingleFileMetal;
 			productName = MobileCode;
-			productReference = 4D571F4B2937F87600E12078 /* MobileCode.app */;
+			productReference = 4D571F4B2937F87600E12078 /* CSingleFileMetal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D571F462937F87500E12078 /* Build configuration list for PBXProject "MobileCode" */;
+			buildConfigurationList = 4D571F462937F87500E12078 /* Build configuration list for PBXProject "CSingleFileMetal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D571F4A2937F87600E12078 /* MobileCode */,
+				4D571F4A2937F87600E12078 /* CSingleFileMetal */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D571F462937F87500E12078 /* Build configuration list for PBXProject "MobileCode" */ = {
+		4D571F462937F87500E12078 /* Build configuration list for PBXProject "CSingleFileMetal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D571F642937F87700E12078 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D571F662937F87700E12078 /* Build configuration list for PBXNativeTarget "MobileCode" */ = {
+		4D571F662937F87700E12078 /* Build configuration list for PBXNativeTarget "CSingleFileMetal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D571F672937F87700E12078 /* Debug */,
