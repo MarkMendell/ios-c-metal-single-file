@@ -1,7 +1,8 @@
 // Memory usage in the simulator will look like there is a memory leak.
 // But if you remove the command buffer commit, it's gone. People online
 // say this is an artifact of XCode profiling your Metal usage, not a
-// memory leak in the app. ¯\_(ツ)_/¯
+// memory leak in the app. I don't think it occurs in the original
+// template version though... ¯\_(ツ)_/¯
 // Didn't look too hard into why the texture is not mapped the same way
 #include <pthread.h>
 #include <simd/simd.h>
